@@ -1,18 +1,22 @@
 pragma solidity ^0.5.1;
 
-contract Greeter  {
+contract Greeter  
+{
     string public yourName;  // data
     
     /* This runs when the contract is executed */
-    constructor() public {
+    constructor() public 
+    {
         yourName = "World";
     } 
     
-    function set(string memory name) public {
+    function set(string memory name) public 
+    {
         yourName = name;
     }
     
-    function hello() view public returns (string memory) {
+    function hello() view public returns (string memory) 
+    {
         return yourName;
     }
 }
