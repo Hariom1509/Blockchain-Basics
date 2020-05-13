@@ -4,7 +4,7 @@ contact Bidder
 {
     string public name = "Bidder";
     string public bidamount;
-    string public eligible;
+    bool public eligible;
     uint constant minamount = 1000;
     
     function setName(string nm) public
