@@ -1,6 +1,6 @@
 pragma solidity ^0.5.1;
 
-contact Bidder
+contract Bidder
 {
     string public name = "Bidder";
     string public bidamount;
