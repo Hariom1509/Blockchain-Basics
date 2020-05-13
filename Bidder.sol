@@ -3,7 +3,7 @@ pragma solidity ^0.5.1;
 contract Bidder
 {
     string public name = "Bidder";
-    string public bidamount;
+    uint public bidamount;
     bool public eligible;
     uint constant minamount = 1000;
     
