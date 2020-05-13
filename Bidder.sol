@@ -7,7 +7,7 @@ contract Bidder
     bool public eligible;
     uint constant minamount = 1000;
     
-    function setName(string nm) public
+    function setName(string memory nm) public
     {
         name = nm;
     }
@@ -19,7 +19,7 @@ contract Bidder
     
     function determineEligibility() public
     {
-        if(bidamount >= x)
+        if(bidamount >= minamount)
         eligible = true;
         else
         eligible = false;
